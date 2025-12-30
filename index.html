@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon/favicon_aviao_branco.png" type="image/x-icon">
+  <title>AVIT Air Shop</title>
+</head>
+
+<body>
+  <!-- NAVEGAÇÃO -->
+  <nav class="navbar navbar-expand-md bg-black navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0">
+          <h1 class="m-0">
+            <img src="assets/logos/logo_branco.png" alt="AVIT Air Shop" style="height:32px; width:auto; display:block;">
+          </h1>
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#produtos">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- CARROSSEL -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid d-md-none" src="assets/banners/celular/SLIDE1_CELULAR.png" alt="">
+        <img class="img-fluid d-none d-xl-none d-md-block" src="assets/banners/tablet/SLIDE1_TABLET.png" alt="">
+        <img class="img-fluid d-none d-xl-block" src="assets/banners/desktop/SLIDE1_DESKTOP.png" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fs-1">Produtos desenvolvidos de piloto para piloto!</h5>
+          <p class="fs-4">Criados a partir da rotina real de quem vive a aviação.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-md-none" src="assets/banners/celular/SLIDE2_CELULAR.png" alt="">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/banners/tablet/SLIDE2_TABLET.png" alt="">
+        <img class="img-fluid d-none d-xl-block" src="assets/banners/desktop/SLIDE2_DESKTOP.png" alt="">
+        <div class="carousel-caption">
+          <h5 class="fs-1">Custo-benefício de verdade!</h5>
+          <p class="fs-4">Soluções acessíveis e eficientes para aviação agrícola e executiva, sem abrir mão da
+            qualidade.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-md-none" src="assets/banners/celular/SLIDE3_CELULAR.png" alt="">
+        <img class="img-fluid d-none d-md-block d-xl-none" src="assets/banners/tablet/SLIDE3_TABLET2.png" alt="">
+        <img class="img-fluid d-none d-xl-block" src="assets/banners/desktop/SLIDE3_DESKTOP.png" alt="">
+        <div class="carousel-caption">
+          <h5 class="fs-1">Qualidade que faz diferença!</h5>
+          <p class="fs-4">Cada produto é pensado para entregar utilidade real, durabilidade e desempenho no dia a dia da
+            operação.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- SOBRE -->
+  <h2 id="sobre" class="container my-3 my-xl-5 fw-bold">Sobre</h2>
+  <div class="container mx-auto">
+    <div class="row align-items-center g-5">
+
+      <!-- TEXTO -->
+      <div class="col-12 col-lg-6">
+
+        <p class="fs-5 fw-semibold mb-3">
+          A <strong>AVIT Air Shop</strong> nasce dentro do cockpit.
+        </p>
+
+        <p class="mb-3">
+          Criada por pilotos e pensada para quem realmente vive a aviação no dia a dia,
+          a AVIT Air Shop desenvolve produtos que unem funcionalidade, conforto e identidade.
+          Cada detalhe é projetado a partir da rotina real de voo — do pré-flight ao pós-voo.
+        </p>
+
+        <p class="mb-3">
+          Atendemos pilotos da aviação executiva, agrícola e geral, entendendo que cada operação
+          exige precisão, praticidade e confiança. Não criamos produtos genéricos: criamos soluções
+          que fazem sentido para quem passa horas no cockpit.
+        </p>
+
+        <p class="mb-4">
+          Nosso compromisso vai além do visual. Trabalhamos com materiais de qualidade,
+          design funcional e acabamento pensado para resistir à rotina intensa da aviação,
+          sem abrir mão de estilo e identidade.
+        </p>
+
+        <p class="fw-semibold mb-1">
+          🛩️ Qualidade, funcionalidade e confiança em cada detalhe.
+        </p>
+
+        <p class="text-uppercase fw-bold small mb-0">
+          AVIT Air Shop — feito por quem voa, para quem voa.
+        </p>
+
+      </div>
+
+      <!-- IMAGEM -->
+      <div class="col-12 col-lg-6 text-center">
+        <img src="/assets/sobre.png" alt="AVIT Air Shop - Aviação" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- BANNER -->
+  <section class="banners banner-1 d-flex flex-column justify-content-center text-center my-3">
+    <div class="banners-titulos bg-body-secondary py-5">
+      <h2 class="fw-bold">De piloto para piloto.</h2>
+      <p>Qualidade, funcionalidade e confiança em cada detalhe.
+      </p>
+    </div>
+  </section>
+
+
+
+  <!-- CARDS(PRODUTOS) -->
+  <h2 id="produtos" class="container my-3 my-xl-5 fw-bold">Confira os nossos produtos</h2>
+  <div class="container row mx-auto">
+    <!-- CAMISETA -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/camiseta-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/camiseta-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/camisa-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Camisetas Polo - Edição Aviação</h5>
+          <p class="card-text">Diversas opções de logos aeronáuticos. Conforto, durabilidade e acabamento premium.</p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- CAPACETE -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/capacete-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="/assets/produtos/tablet/capacete-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/capacete-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Capacetes Agrícolas</h5>
+          <p class="card-text">Capacetes com construção em Kevlar e Fibra de Carbono, sistema de áudio integrado e
+            engate rápido para máscara de veneno.</p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- ADAPTADOR PTT -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/ptt-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/ptt-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/ptt_desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Adaptador Aeronáutico HT/PX</h5>
+          <p class="card-text">Conecte seu headset aeronáutico em qualquer Ráido HT/PX</p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- SUPORTE A10 -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/a10-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/a10-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/a10-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Suporte para Controladora Bose A10</h5>
+          <p class="card-text">Suporte para fixar a sua controladora BOSE A10 no cockpit.</p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- SUPORTE A20 -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/a20-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/a20-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/a20-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Suporte para Controladora Bose A20</h5>
+          <p class="card-text">Suporte para fixar a sua controladora BOSE A20 no cockpit.</p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- SUPORTE A30 -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/a30-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/a30-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/a30-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Suporte para Controladora Bose A30</h5>
+          <p class="card-text">Suporte para fixar a sua controladora BOSE A30 no cockpit.</p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- SUPORTE STARLINK -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/starlink-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/starlink-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/suporte-starlink-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Suporte para Antena Starlink</h5>
+          <p class="card-text">Permite a fixação segura da antena Starlink em operações aeronáuticas ou remotas.
+          </p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- SUPORTE HEADSET SIMPLES -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/headset-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/headset-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/headset-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Suporte para Headset Aeronáutico - Fixação Lateral</h5>
+          <p class="card-text">Ideal para manter o headset seguro e organizado ao lado do cockpit.
+            Instalação prática, estrutura resistente e acesso rápido durante a operação.
+          </p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- SUPORTE HEADSET DUPLO -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/headset-duplo-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/headset-duplo-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/headset-duplo-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Suporte para Headset Aeronáutico - Fixação Superior</h5>
+          <p class="card-text">Projetado para otimizar espaço e proteger o headset contra impactos e desgaste.
+            Fixação firme, design funcional e pensado para o uso diário na aviação.
+          </p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- CAPA MOTOR AERONAVE -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/capa-motor-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/capa-motor-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/capa-motor-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Capa Protetora para Motores, Hélices e Turbinas</h5>
+          <p class="card-text">Desenvolvida para preservar a integridade e prolongar a vida útil dos equipamentos.
+          </p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- CAPA INTERNA AERONAVE -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/capa-interna-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/capa-interna-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/capa-interna-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Capa Protetora para Motores, Hélices e Turbinas</h5>
+          <p class="card-text">Auxilia na conservação de painéis, bancos e equipamentos internos.
+          </p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+    <!-- CHAVEIRO -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none" src="assets/produtos/mobile/chaveiro-mobile.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="assets/produtos/tablet/chaveiro-tablet.png" alt="">
+        <img class="d-none d-xl-block" src="assets/produtos/desktop/chaveiro-desktop.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Chaveiro “Remove Before Flight”</h5>
+          <p class="card-text">Item clássico da aviação.
+          </p>
+          <p class="fw-bold">R$ 0,00</p>
+          <a href="https://api.whatsapp.com/send/?phone=554391858025&text=Ol%C3%A1%21+Vim+pelo+link+do+Site+da+AVIT+Air+Shop+e+gostaria+de+informa%C3%A7%C3%B5es+sobre+produtos%2C+valores+e+disponibilidade!&type=phone_number&app_absent=0"
+            class="btn btn-primary corazul rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FACILIDADES -->
+  <section class="p-4 bg-black text-bg-dark">
+
+    <h2 class="text-center pb-4">Conheça todas as nossas facilidades</h2>
+    <div class="d-flex flex-column align-items-center gap-3 flex-lg-row justify-content-center px-3">
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="bi bi-x-diamond fs-1 corlimao"></i></div>
+        <div>
+          <div class="ms-3 mb-1 corlimao">PAGUE PELO PIX</div>
+          <div class="texto-menor ms-3">Ganhe 5% OFF em pagamentos via PIX.</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="bi bi-wallet fs-1 corlimao"></i></div>
+        <div>
+          <div class="ms-3 mb-1 corlimao">PREÇOS ACESSÍVEIS</div>
+          <div class="texto-menor ms-3">Produtos Custo-benefício.</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="bi bi-truck fs-1 corlimao"></i></div>
+        <div>
+          <div class="ms-3 mb-1 corlimao">ENVIO</div>
+          <div class="texto-menor ms-3">Envio rápido para todo o Brasil.</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- CONTATO -->
+  <h2 id="contato" class="container my-3 fw-bold text-center">Contato</h2>
+
+  <div class="container my-3">
+    <div class="row justify-content-center text-center g-4">
+
+      <!-- INSTAGRAM -->
+      <div class="col-6 col-md-3">
+        <a href="https://www.instagram.com/avit__air_shop/" target="_blank" class="text-decoration-none text-dark">
+          <i class="bi bi-instagram fs-1"></i>
+          <p class="mt-2 mb-0">Instagram</p>
+        </a>
+      </div>
+
+      <!-- WHATSAPP -->
+      <div class="col-6 col-md-3">
+        <a href="https://wa.me/5543991858025" target="_blank" class="text-decoration-none text-dark">
+          <i class="bi bi-whatsapp fs-1"></i>
+          <p class="mt-2 mb-0">WhatsApp</p>
+        </a>
+      </div>
+
+      <!-- LOCALIZAÇÃO -->
+      <div class="col-6 col-md-3">
+        <i class="bi bi-geo-alt fs-1"></i>
+        <p class="mt-2 mb-0">Londrina - PR</p>
+      </div>
+
+      <!-- LINKTREE -->
+      <div class="col-6 col-md-3">
+        <a href="#" target="_blank" class="text-decoration-none text-dark">
+          <i class="bi bi-link-45deg fs-1"></i>
+          <p class="mt-2 mb-0">Linktr.ee</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+
+  <footer class="text-center bg-black text-bg-dark">
+    <p class="py-3 m-0">2026 <i class="bi bi-c-circle"></i> AVIT Air Shop. Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
