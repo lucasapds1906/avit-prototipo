@@ -44,4 +44,14 @@
 
 .banners-titulos {
   --bs-bg-opacity: .2;
+
+}
+
+
+/* Mobile */
+@media (max-width: 991px) {
+  .banners {
+    background-attachment: scroll;
+    height: 80vh;
+  }
 }
